@@ -24,7 +24,7 @@ function Signup() {
 
         localStorage.setItem('users',JSON.stringify(users))
 
-        alert("reg succ");
+        alert("REGISTRATION SUCCESSFUL");
     }
 
   return (
@@ -43,7 +43,7 @@ function Signup() {
                   <input type="password" placeholder='ConfirmPassword' className='form-control mb-3' value={confirmpassword}
                 onChange={(e)=> {setconfirmpassword(e.target.value)}} required/>
               
-                <input type="submit"  className='btn btn-primary text-center col-6' value="signUP"/>
+                <input type="submit"  className='btn btn-primary text-center col-6' value="Sign IN"/>
                <a href='/log' className=' sa-log'>LOGIN</a>
             </form>
             </div>
